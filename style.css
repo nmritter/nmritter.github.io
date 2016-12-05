@@ -8,7 +8,12 @@ h1 {
   text-align: center;
 }
 p {
-  color:green;
+  color: navy;
+  font-size: 26px;
+  text-align: left;
+}
+p1 {
+  color:navy;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
