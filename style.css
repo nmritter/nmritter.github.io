@@ -1,33 +1,33 @@
 html{
-  background-color: lightblue;
+  background-color: lightpink;
 
 }
 div{
-  background-color: lightblue;
+  background-color: lightpink;
   font-size: 16px;
-  color: deeppink;
+  color: navy;
 }
 h1 {
   font-size: 36px;
-  text-align: left;
+  text-align: center;
 }
 p1{
   color: blueviolet;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 p2{
   color: blueviolet;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 p3{
   color: blueviolet;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 p4{
   color: blueviolet;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
