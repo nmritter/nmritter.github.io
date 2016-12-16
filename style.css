@@ -32,3 +32,12 @@ p4{
   text-align: left;
   font-size: 20px;
 }
+p5{
+  color: grey;
+  text-align: left;
+  font-size: 12px;
+  white-space: nowrap;
+}
+br{
+  color: lightpink;
+}
