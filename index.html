@@ -11,7 +11,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <script src="script.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,13 +24,27 @@
     <div class="row">
     <div class="col-md-10"><h1>Nicole Ritter</h1></div>
   </div>
+  <ul class="tab">
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About me')">About me</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'School')">School</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Hobbies')">Hobbies</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Goals')">Goals</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact me')">Contact me</a></li>
+</ul>
+<div id="About me" class="tabcontent">
   <div class="row">
-    <div class="col-md-8"><p1><u>Contact me</u></p1></div>
+    <div class="col-md-8"><p2><u>About me</u></p2></div>
     <div class="col-md-4"></div>
   </div>
   <div class="row">
-    <div class="col-md-10">Email: nmritter@buffalo.edu</div>
+    <div class="col-md-10">My name is Nicole Ritter. I am 18 years old and a freshman in college.
+    I live with my mom, Karen, and my dad, Andy. I have an older brother, Ryan, and a younger brother, Chase. I also
+  have 2 cats, Izzy and Simon.</div>
   </div>
+</div>
+
+
+<div id="School" class="tabcontent">
   <div class="row">
     <div class="col-md-8"><p2><u>School</u></p2></div>
     <div class="col-md-4"></div>
@@ -40,16 +54,19 @@
       last June with an advanced regents dipolma and a 3.7 GPA. I am currently a freshman at the
       University at Buffalo. I am studying computer engineering.</div>
   </div>
-  <div class="row">
-    <div class="col-md-3"></div>
-    <div class="col-md-2"><a href ="https://www.lancasterschools.org"><img src="lancaster.jpg" alt="lancaster" style="width:128px;height:128px;"></a></div>
-    <div class="col-md-2"><a href="https://www.buffalo.edu"><img src="ub.jpg" alt="UB" style="width:128px;height:128px;"></a></div>
-  </div>
-  <div class="row">
-    <div class="col-md-3"></div>
-    <div class="col-md-2"><p5><i>Click here</i></p5></div>
-    <div class="col-md-2"><p5><i>Click here</i></p5></div>
-  </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-2"><a href ="https://www.lancasterschools.org"><img src="lancaster.jpg" alt="lancaster" style="width:128px;height:128px;"></a></div>
+      <div class="col-md-2"><a href="https://www.buffalo.edu"><img src="ub.jpg" alt="UB" style="width:128px;height:128px;"></a></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-2"><p5><i>Click here</i></p5></div>
+      <div class="col-md-2"><p5><i>Click here</i></p5></div>
+    </div>
+</div>
+
+<div id="Hobbies" class="tabcontent">
   <div class="row">
     <div class="col-md-6"><p3><u>Hobbies</u></p3></div>
     <div class="col-md-6"></div>
@@ -67,6 +84,8 @@
     <div class="col-md-2"><img src="hunt.jpg" alt="hunt" style="width:128px;height:128px;"></div>
     <div class="col-md-2"><img src="read.jpg" alt="read" style="width:128px;height:128px;"></div>
   </div>
+</div>
+<div id="Goals" class="tabcontent">
   <div class="row">
     <div class="col-md-8"><p4><u>Goals</u></p4></div>
     <div class="col-md-4"></div>
@@ -83,7 +102,16 @@
     <div class="col-md-2"><img src="computer.jpg" alt="computer" style="width:128px;height:128px;"></div>
     <div class="col-md-2"><img src="it.jpg" alt="it" style="width:128px;height:128px;"></div>
   </div>
-
+</div>
+<div id="Contact me" class="tabcontent">
+  <div class="row">
+    <div class="col-md-8"><p1><u>Contact me</u></p1></div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">Email: nmritter@buffalo.edu</div>
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
